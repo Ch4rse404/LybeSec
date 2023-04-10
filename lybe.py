@@ -8,7 +8,7 @@ def restart():
     lybe = input("\033[92m$Lybe\033[0m@\033[92mroot/\033[0m~")
     
     if lybe == 'fet tekshell':
-        from TekShell import tekshell
+        from derb import tekshell
         restart()
     elif lybe == 'fet neofetch':
         from ini import neofetch
